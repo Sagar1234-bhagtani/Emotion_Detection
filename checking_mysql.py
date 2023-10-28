@@ -4,16 +4,16 @@ mydb=mysql.connector.connect(host="localhost",user="root",passwd="root",database
 
 
 
-mycursor = mydb.cursor()
+mycursor = mydb.cursor()wefjljsd
 
 # Define the SQL query to fetch all records from the table
-sql = "SELECT * FROM todo"
+sql = "SELECT * FROM todo"sdjfkljsklj
 
 # Execute the query
-mycursor.execute(sql)
+mycursor.execute(sql)wsdfkklsdafnknfsad
 
 # Fetch all the records
-result = mycursor.fetchall()
+result = mycursor.fetchall()ksdfnkjndsfndfsj
 
 # Print the records
 for record in result:
